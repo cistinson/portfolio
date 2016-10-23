@@ -1,0 +1,97 @@
+header{
+  background: linear-gradient(aliceblue, white);
+  padding:5px;
+  text-align:center;
+  border: 5px solid black;
+}
+
+header h1{
+  font-size:40px;
+  text-align: center;
+  background-color: inherit;  
+  text-shadow:2px 2px white;
+  color:black;
+}
+
+h1:first-letter{
+  font-size:35px;
+  font-family:cursive;
+}
+
+header li{
+  display:inline;
+  list-style-type: none;
+  padding:10px 25px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+header li:hover{
+  background-color: palegreen;
+  padding:12px 25px;
+  border: 3px dashed red;
+}
+
+header p{
+  padding:20px;
+  font-size: 20px;
+  font-family:cursive;
+}
+
+h1 {
+  font-size: 25px;
+  color: ghostwhite;
+  padding:5px;
+  background-color:darkblue;
+  text-align:center;
+  margin:auto
+}
+
+h3{
+  font-size: 30px;
+  margin-left:20px;
+  font-family: cursive;
+  color:crimson;
+}
+
+a{
+  color:blue;
+  text-decoration:none;
+}
+
+a:visited{
+  color:red;
+}
+
+img {
+  border: 2px solid black;
+  margin-left: 20px;
+}
+
+img:hover{
+  height: 400px;
+  width: 600px;
+  border: 10px dashed red;
+}
+
+li {
+  list-style-type:square;
+  line-height: 30px;  
+}
+
+body{
+  background-color:aliceblue;
+  margin:0px;
+}
+
+p{
+  font-size:20px;
+  margin-left:20px;
+}
+
+footer{
+  text-align:center;
+  padding:10px;
+  font-style:italic;
+  border-top: 10px solid black
+}
