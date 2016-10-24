@@ -66,6 +66,8 @@ a:visited{
 img {
   border: 2px solid black;
   margin-left: 20px;
+  height:300px;
+  width:500px;
 }
 
 img:hover{
@@ -93,5 +95,5 @@ footer{
   text-align:center;
   padding:10px;
   font-style:italic;
-  border-top: 10px solid black
+  border-top: 10px solid black;
 }
