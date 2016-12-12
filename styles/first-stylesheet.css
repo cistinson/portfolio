@@ -41,6 +41,18 @@ article{
   margin-top:0px
 }
 
+article li:nth-child(odd){
+  text-shadow: 3px 3px white;
+}
+
+article img:nth-child(even){
+  border:2px solid blue;
+}
+
+article img:nth-child(odd){
+  border: 2px solid black;
+}
+
 .list li{
   list-style-type: none;
   display:inline-block;
@@ -82,6 +94,11 @@ article{
   display:inline-block;
   height:300px;
   width:500px;
+  transition: border-radius 1s;
+}
+
+#chicagoImg:hover{
+  border-radius:400px;
 }
 
 #schools img{
@@ -89,10 +106,24 @@ article{
   width:300px;
 }
 
+#depaulImg{
+  border-radius:0px;
+  transition:border-radius 1s;
+}
+
+#depaulImg:hover{
+  border-radius:400px;
+}
+
 #owImg{
   display:inline-block;
   height:300px;
   width:500px;
+  transition: border 1s;
+}
+
+#owImg:hover{
+  border:30px solid black;
 }
 
 #smashImg{
@@ -176,6 +207,7 @@ p{
 h1 i{
   padding:5px;
 }
+
 
 footer{
   text-align:center;
